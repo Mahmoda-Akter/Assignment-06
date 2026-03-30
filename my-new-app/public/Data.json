@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "FaFileAlt"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Build your personal portfolio easily.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Custom domains", "SEO ready", "Responsive design"],
+    "icon": "FaGlobe"
+  },
+  {
+    "id": 3,
+    "name": "Job Tracker",
+    "description": "Track your job applications efficiently.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Application tracking", "Status updates", "Reminder alerts"],
+    "icon": "FaTasks"
+  },
+  {
+    "id": 4,
+    "name": "Interview Prep Pack",
+    "description": "Prepare for interviews with curated questions.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Common questions", "Mock interviews", "Expert tips"],
+    "icon": "FaUserTie"
+  },
+  {
+    "id": 5,
+    "name": "Cover Letter Generator",
+    "description": "Generate professional cover letters instantly.",
+    "price": 7,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["AI writing", "Custom templates", "Download as PDF"],
+    "icon": "FaEnvelopeOpenText"
+  },
+  {
+    "id": 6,
+    "name": "LinkedIn Optimizer",
+    "description": "Boost your LinkedIn profile visibility.",
+    "price": 12,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Profile analysis", "Keyword suggestions", "Headline generator"],
+    "icon": "FaLinkedin"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Toolkit",
+    "description": "All-in-one tools for freelancers.",
+    "price": 25,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Invoice generator", "Client tracker", "Time tracking"],
+    "icon": "FaBriefcase"
+  },
+  {
+    "id": 8,
+    "name": "Design Assets Bundle",
+    "description": "Access premium design assets and icons.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["5000+ icons", "UI kits", "Illustrations"],
+    "icon": "FaPalette"
+  }
+]
