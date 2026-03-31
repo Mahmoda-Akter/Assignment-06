@@ -14,7 +14,7 @@ DigiTools is a mordern website and user frindly .this platfrom works for simplif
 *React-Toastify(NPM Package)
 *JSON(for product data)
 
-4. Features about your project.
+4.Features about your project.
 
 1/ Multiple digital tools are availavle in here.where usere can use thair favorite tool kit.
 
