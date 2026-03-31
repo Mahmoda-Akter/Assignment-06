@@ -1,16 +1,25 @@
-# React + Vite
+1. Name of your Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My project name is DigiTools website
 
-Currently, two official plugins are available:
+2.A little Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+DigiTools is a mordern website and user frindly .this platfrom works for simplify everyday task to giving tools like Cover Letter Generator,LinkedIn Optimizer etc.
 
-## React Compiler
+3.Technology that you use
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*React.js
+*Tailwind css,DaisyUl
+*Javascript(ES6+)
+*React-Toastify(NPM Package)
+*JSON(for product data)
 
-## Expanding the ESLint configuration
+4. Features about your project.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1/ Multiple digital tools are availavle in here.where usere can use thair favorite tool kit.
+
+2/ It is user frindly and responsive for all device.that's why user can use this platform without featching any problem.
+
+3/ User can add to cart thair products and remove thair unnecessary tools from the cart section
+
+

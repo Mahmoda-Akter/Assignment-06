@@ -3,14 +3,14 @@
 const Cart = ({selectbtn,setselectbtn}) => {
     const removeall=()=>{
         setselectbtn([]);
-        toast("remove all items from the cart!");
+        toast.error("remove all items from the cart!");
     }
 
     const handledeletebtn=(selectbtnitem)=>{
         //  console.log( selectbtnitem.name)
           let filterdeletebtn=selectbtn.filter(filteritem=> filteritem.name!== selectbtnitem.name);
           setselectbtn(filterdeletebtn)
-          toast("Item remove from the cart!");
+          toast.error("Item remove from the cart!");
     }
     const totleprice=selectbtn.reduce((sum,item)=> sum+item.price,0);
     console.log(totleprice)

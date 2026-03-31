@@ -10,7 +10,7 @@ const Productitem = ({productitems,selectbtn,setselectbtn}) => {
     const handlebyenowbtn=(productitems)=>{
         setselectbtn([...selectbtn,productitems]);
         setisbyebtn(true);
-        toast("Item added to the cart!");
+        toast.success("Item added to the cart!");
 
         
     }
