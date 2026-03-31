@@ -1,5 +1,6 @@
 import React from 'react';
-import banner from '../../assets/banner.png';
+import banner from '../../../public/assets/banner.png';
+import play from '../../../public/assets/Play.png';
 
 const Banner = () => {
     return (
@@ -12,12 +13,12 @@ const Banner = () => {
                     />
                     <div>
                         <p><span className='bg-gray-300 p-2 rounded-2xl'>New: AI-Powered Tools Available</span></p>
-                        <h1 className="text-6xl font-bold">Supercharge Your Digital Workflow</h1>
+                        <h1 className="text-6xl font-bold mt-4">Supercharge Your Digital Workflow</h1>
                         <p className="py-6 text-xl">
                            Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today.Explore Products
                         </p>
-                        <button className="btn btn-primary rounded-2xl">Explore Products</button>
-                        <button className="btn btn-outline btn-primary ml-3">Watch Demo</button>
+                        <button className="btn btn-primary rounded-4xl">Explore Products</button>
+                        <button className="btn btn-outline btn-primary ml-3 rounded-4xl"><img src={play}/> Watch Demo</button>
                     </div>
                 </div>
             </div>

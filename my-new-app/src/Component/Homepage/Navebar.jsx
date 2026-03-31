@@ -4,7 +4,7 @@ import { FaCartArrowDown } from "react-icons/fa";
 const Navebar = ({selectbtn}) => {
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm w-[80%] mx-auto">
+            <div className="navbar bg-base-100 shadow-sm ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,7 +23,7 @@ const Navebar = ({selectbtn}) => {
                     <a className="btn btn-ghost text-violet-600 font-bold text-2xl">DigiTools</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 font-bold">
                             <li><a>Products</a></li>
                             <li><a>Features</a></li>
                             <li><a>Pricing</a></li>
@@ -33,11 +33,11 @@ const Navebar = ({selectbtn}) => {
                 </div>
                 <div className="navbar-end gap-5">
                     <div>
-                        <span className='bg-blue-300 relative top-2 left-6 text-xs p-1 rounded-full'>{selectbtn.length}</span>
+                        {selectbtn.length===0?<span className='bg-blue-300 relative top-2 left-6 text-xs p-1 rounded-full hidden'>{selectbtn.length}</span>:<span className='bg-blue-300 relative top-2 left-6 text-xs p-1 rounded-full'>{selectbtn.length}</span>}
                         <FaCartArrowDown size={30}/>
                     </div>
-                    <p>Login</p>
-                    <button class="btn btn-primary">Primary</button>
+                    <p className='font-bold'>Login</p>
+                    <button class="btn btn-primary rounded-4xl">Get Started</button>
                 </div>
             </div>
         </div>

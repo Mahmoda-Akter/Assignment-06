@@ -1,18 +1,25 @@
-import React from 'react';
-import tool from '../../assets/design-tool.png';
+import React, { useState } from 'react';
+ import { ToastContainer, toast } from 'react-toastify';
+// import tool from '../../assets/design-tool.png';
+
 
 const Productitem = ({productitems,selectbtn,setselectbtn}) => {
     console.log(productitems);
+    const [isbyebtn,setisbyebtn]=useState(false);
 
     const handlebyenowbtn=(productitems)=>{
         setselectbtn([...selectbtn,productitems]);
+        setisbyebtn(true);
+        toast("Item added to the cart!");
+
+        
     }
     return (
         <div>
             <div className="card w-96 bg-base-100 shadow-sm ">
                 <div className="card-body ">
                     <div className='flex justify-between items-center'>
-                        <img className='h-[30px] w-[30px] object-fill' src={tool}/>
+                        <img className='h-[30px] w-[30px] object-fill' src={productitems.icon}/>
                         <span className="text-xs bg-amber-300 p-2 rounded-3xl">{productitems.tagType}</span>
                     </div>
                     <div>
@@ -37,11 +44,13 @@ const Productitem = ({productitems,selectbtn,setselectbtn}) => {
                         
                     </ul>
                     <div className="mt-6">
-                        <button onClick={()=> handlebyenowbtn(productitems)} className="btn btn-primary btn-block">Bye Now</button>
+                        <button onClick={()=> handlebyenowbtn(productitems)} className="btn btn-primary btn-block">{isbyebtn===true?<h1>Add to cart</h1>:"Bye now"}</button>
                     </div>
                 </div>
             </div> 
+            
         </div>
+        
     );
 };
 

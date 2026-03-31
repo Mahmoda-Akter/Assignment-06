@@ -6,9 +6,9 @@
     "price": 19,
     "period": "one-time",
     "tag": "Best Seller",
-    "tagType": "best-seller",
+    "tagType": "best-sseller",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "FaFileAlt"
+    "icon": "/assets/writing_2327400 1.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Custom domains", "SEO ready", "Responsive design"],
-    "icon": "FaGlobe"
+    "icon": "/assets/design-tool.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["Application tracking", "Status updates", "Reminder alerts"],
-    "icon": "FaTasks"
+    "icon": "/assets/operation.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Common questions", "Mock interviews", "Expert tips"],
-    "icon": "FaUserTie"
+    "icon": "/assets/portfolio.png"
   },
   {
     "id": 5,

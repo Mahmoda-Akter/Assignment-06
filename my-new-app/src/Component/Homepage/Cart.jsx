@@ -1,16 +1,16 @@
-// import React, { useState } from 'react';
-import Carditems from './Carditems';
-import tol from '../../assets/design-tool.png'
+  import { toast } from 'react-toastify';
 
 const Cart = ({selectbtn,setselectbtn}) => {
     const removeall=()=>{
         setselectbtn([]);
+        toast("remove all items from the cart!");
     }
 
     const handledeletebtn=(selectbtnitem)=>{
         //  console.log( selectbtnitem.name)
           let filterdeletebtn=selectbtn.filter(filteritem=> filteritem.name!== selectbtnitem.name);
           setselectbtn(filterdeletebtn)
+          toast("Item remove from the cart!");
     }
     const totleprice=selectbtn.reduce((sum,item)=> sum+item.price,0);
     console.log(totleprice)
@@ -29,7 +29,7 @@ const Cart = ({selectbtn,setselectbtn}) => {
                     <div className='flex justify-between items-center bg-gray-200  border border-amber-300'>
                                     <div className='flex  gap-7 p-7'>
                                         <div className='mt-3'>
-                                            <img src={tol} />
+                                            <img src={selectbtnitem.icon} />
                                         </div>
                                         <div>
                                             <p>{selectbtnitem.name}</p>
