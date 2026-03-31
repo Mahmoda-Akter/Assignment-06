@@ -9,12 +9,12 @@ const Banner = () => {
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img
                         src={banner}
-                        className="max-w-sm rounded-lg shadow-2xl"
+                        className="max-w-sm rounded-lg shadow-2xl w-full"
                     />
                     <div>
                         <p><span className='bg-gray-300 p-2 rounded-2xl'>New: AI-Powered Tools Available</span></p>
-                        <h1 className="text-6xl font-bold mt-4">Supercharge Your Digital Workflow</h1>
-                        <p className="py-6 text-xl">
+                        <h1 className=" text-2xl md:text-6xl font-bold mt-4">Supercharge Your Digital Workflow</h1>
+                        <p className="md:py-6 md:text-xl">
                            Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today.Explore Products
                         </p>
                         <button className="btn btn-primary rounded-4xl">Explore Products</button>

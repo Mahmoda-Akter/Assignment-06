@@ -7,7 +7,7 @@ const Pricing = () => {
                 <h1 className='font-bold text-4xl'>Simple, Transparent Pricing</h1>
                 <p className='text-gray-400 mt-3'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
-            <div className='grid grid-cols-1  md:grid-cols-3 gap-8 place-items-center mt-10'>
+            <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3  gap-8 place-items-center mt-10'>
                 <div className="card w-86 bg-base-200 shadow-sm">
                     <div className="card-body">
                         <div>
@@ -38,11 +38,11 @@ const Pricing = () => {
                             
                         </ul>
                         <div className="mt-6">
-                            <button className="btn btn-primary btn-block mt-16 rounded-4xl">Get Started Free</button>
+                            <button className="btn btn-primary btn-block mt-13 rounded-4xl">Get Started Free</button>
                         </div>
                     </div>
                 </div>
-                <div className="card w-86 bg-violet-600 shadow-sm text-white">
+                <div className="card w-86  bg-violet-600 shadow-sm text-white">
                     <div className="card-body">
                         <div>
                             <span className='absolute -top-3 left-30 bg-amber-200 p-2 rounded-4xl text-red-500'>Most Popular</span>
@@ -85,7 +85,7 @@ const Pricing = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-86 bg-base-200 shadow-sm">
+                <div className="card w-86  bg-base-200 shadow-sm">
                     <div className="card-body">
                         <div>
                             <h1 className='font-bold text-xl'>Enterprise</h1>

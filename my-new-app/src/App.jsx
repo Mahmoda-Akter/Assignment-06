@@ -28,7 +28,9 @@ function App() {
     <>
       <Navebar selectbtn={selectbtn} setselectbtn={setselectbtn}></Navebar>
       <Banner></Banner>
-      <Stats></Stats>
+      <div className='flex justify-center mx-auto'>
+        <Stats></Stats>
+      </div>
       <Suspense fallback="loding data...">
         <Product fetchdata={fetchdata} selectbtn={selectbtn} setselectbtn={setselectbtn} btntoggle={btntoggle} setbtntoggle={setbtntoggle}></Product>
       </Suspense>

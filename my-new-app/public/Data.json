@@ -52,7 +52,7 @@
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["AI writing", "Custom templates", "Download as PDF"],
-    "icon": "FaEnvelopeOpenText"
+    "icon": "/assets/operation.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["Profile analysis", "Keyword suggestions", "Headline generator"],
-    "icon": "FaLinkedin"
+    "icon": "/assets/design-tool.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Invoice generator", "Client tracker", "Time tracking"],
-    "icon": "FaBriefcase"
+    "icon": "/assets/portfolio.png"
   },
   {
     "id": 8,
@@ -85,6 +85,6 @@
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["5000+ icons", "UI kits", "Illustrations"],
-    "icon": "FaPalette"
+    "icon": "/assets/design-tool.png"
   }
 ]
