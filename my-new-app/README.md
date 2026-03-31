@@ -1,4 +1,4 @@
-1. Name of your Project
+1.Name of your Project
 
 My project name is DigiTools website
 
